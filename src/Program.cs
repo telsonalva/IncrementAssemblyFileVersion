@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 
 namespace IncrementFileVersion
@@ -69,7 +68,6 @@ namespace IncrementFileVersion
                             File.WriteAllText(assemblyInfoFile, NewText,Encoding.UTF8);
 
                             Console.WriteLine("Completed Successfully");
-                            Console.Read();
 
                         }
                         else
